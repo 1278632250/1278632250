@@ -29,6 +29,12 @@
             text: "ES6异步加载",
             active: false,
           },
+		  {
+		    path: "getUrlParam",
+		    text: "获取url指定参数值",
+		    active: false,
+		  },
+
 
         ]
       }

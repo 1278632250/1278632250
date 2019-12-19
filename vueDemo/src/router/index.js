@@ -6,6 +6,8 @@ import emit from '@/components/props|emit/emit'
 import lifeCycle from '@/components/lifeCycle'
 import asyncs from '@/components/asyncs'
 import canv from '@/components/canv'
+import getUrlParam from '@/components/getUrlParam'
+
 
 Vue.use(Router)
 
@@ -41,6 +43,12 @@ export default new Router({
       name: 'canv',
       component: canv
     },
+	{
+	  path: '/getUrlParam',
+	  name: 'getUrlParam',
+	  component: getUrlParam
+	},
+
 
 
   ]
