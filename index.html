@@ -1,62 +1,12 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>div横向拖拽排序</title>
-		<style type="text/css">
-			body,
-			div {
-				padding: 0px;
-				margin: 0px;
-			}
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,user-scalable=no"><link rel=stylesheet href=./static/css/mint-ui@2.2.13.css><title>蜜商</title><script src=./static/layer_mobile/layer.js></script><script src=//res.wx.qq.com/open/js/jweixin-1.4.0.js></script><link href=././static/css/app.08d311467bef0e692bf41b9693cdec32.css rel=stylesheet></head><script>function ress(){
+      var htmlWidth = document.documentElement.clientWidth || document.body.clientWidth;
+      var htmlDom = document.getElementsByTagName("html")[0]
+      htmlDom.style.fontSize = htmlWidth / 10 + 'px'
+    }
+     window.onload = function(){
+      ress()
+      };
+window.onresize = function(){
+  ress()
 
-			.box {
-				margin-left: 15px;
-				padding: 10px;
-				padding-right: 0px;
-				width: 810px;
-				height: 150px;
-				border: blue solid 1px;
-			}
-
-			.horizontal-div {
-				float: left;
-				margin-right: 10px;
-				border: #000 solid 1px;
-				text-align: center;
-				width: 150px;
-				height: 150px;
-			}
-
-			.horizontal-div-dash {
-				position: absolute;
-				width: 150px;
-				height: 150px;
-				margin-right: 10px;
-				border: 1px dashed blue;
-				background: #ececec;
-				opacity: 0.7;
-			}
-
-			.dash {
-				float: left;
-				width: 150px;
-				height: 150px;
-				margin-right: 10px;
-				border: 1px dashed #f00;
-			}
-
-			;
-		</style>
-	</head>
-	<body>
-		<h1>div横向拖拽排序</h1>
-		<div class="box">
-			<div class="horizontal-div" id="div1">div1</div>
-			<div class="horizontal-div" id="div2">div2</div>
-			<div class="horizontal-div" id="div3">div3</div>
-			<div class="horizontal-div" id="div4">div4</div>
-			<div class="horizontal-div" id="div5">div5</div>
-		</div>
-	</body>
-</html>
+};</script><body><div id=app></div><script type=text/javascript src=././static/js/manifest.cddac9b1754f4ef0e984.js></script><script type=text/javascript src=././static/js/vendor.1df85d8697d8509186d1.js></script><script type=text/javascript src=././static/js/app.ba9d5da18cf92fb0d614.js></script></body></html>
